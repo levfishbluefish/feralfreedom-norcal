@@ -1,0 +1,14 @@
+{
+  "links": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/feralfreedomnorcal",
+      "image": "images/social/facebook.svg"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/feralfreedom_norcal/",
+      "image": "images/social/github.svg"
+    }
+  ]
+}
