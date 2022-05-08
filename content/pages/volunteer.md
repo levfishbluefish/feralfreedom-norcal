@@ -12,9 +12,7 @@ We are currently looking for volunteers for:
 
 **Fosters**
 
-- Kitten Fostering
-- Bottle Baby Fostering
-- Adult cat fostering
+[Foster Appication](https://airtable.com/shrxiEoGqgFjcR70I)
 
 **Trappers**
 

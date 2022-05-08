@@ -1,5 +1,5 @@
 <div class='header'>
-  <a class="header-logo" href="{{ .Site.BaseURL }}"><img class="header-logo" src="{{ .Site.BaseURL }}/images/logo.svg"/></a>
+  <a class="header-logo" href="{{ .Site.BaseURL }}"><img class="header-logo" src="{{ .Site.BaseURL }}images/logo.svg"/></a>
   <div class="menu-main">
     <ul>
         {{ $currentPage := . }}
@@ -8,7 +8,7 @@
                 <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
             </li>
         {{end}}
-        <a href="{{ .Site.BaseURL}}/pages/donate"><button class="button-CTA">DONATE</button></a>
+        <a href="{{ .Site.BaseURL}}pages/donate"><button class="button-CTA">DONATE</button></a>
     </ul>
   </div>
   <div id="toggle-menu-main-mobile" class="hamburger-trigger">
