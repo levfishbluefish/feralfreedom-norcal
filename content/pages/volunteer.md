@@ -12,7 +12,7 @@ We are currently looking for volunteers for:
 
 **Fosters**
 
-[Foster Appication](https://airtable.com/shrxiEoGqgFjcR70I)
+[Foster Application](https://airtable.com/shrxiEoGqgFjcR70I)
 
 **Trappers**
 
