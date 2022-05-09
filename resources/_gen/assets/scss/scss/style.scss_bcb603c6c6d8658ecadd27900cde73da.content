@@ -786,4 +786,7 @@ body {
   .button-CTA.mobile {
     background-color: #323232; }
 
+.intro img {
+  height: 35vh; }
+
 /*# sourceMappingURL=style.css.map */
