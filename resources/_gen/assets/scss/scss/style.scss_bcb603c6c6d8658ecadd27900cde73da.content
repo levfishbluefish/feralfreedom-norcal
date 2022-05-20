@@ -762,9 +762,6 @@ body {
     min-height: 100vh;
     border: 18px solid var(--highlight-color); }
 
-.header-logo {
-  height: 20vh; }
-
 .wrapper {
   max-width: 1000px;
   margin: 0 auto; }
