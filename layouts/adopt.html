@@ -1,0 +1,29 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "main" }}
+
+  {{ if .Site.Params.showAuthorOnHomepage }}
+    {{ partial "author-large.html" . }}
+  {{ end }}
+
+  <div class="intro">
+    <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+    <div class="intro-content">{{ .Content }}</div>
+  </div>
+  <div>
+    <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr3I2dkF3vG4ItUy?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="2629" style="background: transparent; border: 1px solid #ccc;"></iframe>
+  </div>
+
+  {{ if .Site.Params.showPostsOnHomepage }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+    {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+  {{ end }}
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}
