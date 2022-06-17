@@ -57,14 +57,14 @@ We currently offer the following services for cats and dogs at least 4 weeks of 
 
 - -PARVO & Feline PanLeuk testing **FREE**
 - -FVRCP Vaccine (Cats) **$5**
-- -Deworming* **$2-$10**
-- -Flea Treatment* **$2-$5**
+- -*Deworming **$2-$10**
+- -*Flea Treatment **$2-$5**
 - -Microchip **$8** (*must be at least 8 weeks old*)
 - -FeLV/FIV combo testing **$20**
 - -Fecal Parasite testing **$50**
 - -Nail Trim **free with any appointment**
 
-*prices vary depending on pet's size**
+**prices vary depending on pet's size*
 
 *We do not offer dog vaccines at this time*
 
