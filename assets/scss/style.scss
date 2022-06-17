@@ -51,7 +51,9 @@ body {
   }
 }
 .wrapper {
-  max-width: 1000px;
+  //max-width: 80vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
   margin: 0 auto;
 }
 
@@ -77,4 +79,15 @@ body {
 
 .intro img {
   height: 35vh;
+}
+
+#TableOfContents {
+  ul {
+    margin-bottom: 3rem;
+    > li {
+    font-size: x-large;
+    padding: 0.5rem;
+    
+    }
+  }
 }

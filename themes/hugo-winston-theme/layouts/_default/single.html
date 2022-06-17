@@ -8,14 +8,22 @@
   {{ end }}
 </div>
 
+<div class="toc">
+  {{ if .Params.toc }}
+  <aside>
+    {{ .TableOfContents }}
+  </aside>
+  {{ end }}
+</div>
+
 <div class="content">
   {{ .Content }}
   {{ if .Params.iframe }}
   <script language="JavaScript">
     var AAPPetScrollerSettings = {
-        'searchtools_box_width': '450',
+        'searchtools_box_width': '600',
         'searchtools_box_height': '600',
-        'size': '450x600_gridnew',
+        'size': '600x600_gridnew',
         'title': '',
         'clan_name': '',
         'color': 'gray',
@@ -24,7 +32,7 @@
     };
     
     </script>
-    <div style="height: 600px; width: 100%; -webkit-overflow-scrolling: touch; overflow-y: scroll;">
+    <div style="height: 600px; width: 600px; -webkit-overflow-scrolling: touch; overflow-y: scroll;">
     <script language="JavaScript" src="https://images.adoptapet.com/js/st-portable-pet-list.js"></script></div>
     <h4>Don't see what you are looking for? We generally have cats and kittens that are almost ready for adoption, but aren't listed yet.  Fill out an application for your perfect pet and we will find a match!</h4>
     {{ end }}
