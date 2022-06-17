@@ -62,9 +62,11 @@ We currently offer the following services for cats and dogs at least 4 weeks of 
 - -Microchip **$8** (*must be at least 8 weeks old*)
 - -FeLV/FIV combo testing **$20**
 - -Fecal Parasite testing **$50**
-- -Nail Trim **free with any appointment**
+- -*Ear Cleaning **$5-$15**
+- -Nail Trim **FREE with any appointment**
+- -Assistance with prescribed medication injections or fluids **FREE**
 
-**prices vary depending on pet's size*
+**prices vary depending on pet's size or condition*
 
 *We do not offer dog vaccines at this time*
 
