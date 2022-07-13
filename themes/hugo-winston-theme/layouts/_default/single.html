@@ -18,7 +18,7 @@
 
 <div class="content">
   {{ .Content }}
-  {{ if .Params.iframe }}
+  {{ if .Params.adopt }}
   <script language="JavaScript">
     var AAPPetScrollerSettings = {
         'searchtools_box_width': '600',
@@ -35,12 +35,16 @@
     <div style="height: 600px; width: 600px; -webkit-overflow-scrolling: touch; overflow-y: scroll;">
     <script language="JavaScript" src="https://images.adoptapet.com/js/st-portable-pet-list.js"></script></div>
     <h4>Don't see what you are looking for? We generally have cats and kittens that are almost ready for adoption, but aren't listed yet.  Fill out an application for your perfect pet and we will find a match!</h4>
-    {{ end }}
-    {{ if .Params.iframe }}
     <h2>Ready to Adopt?</h2>
     <h3>Fill out an adoption application today!</h3>
     <iframe class="airtable-embed" src="https://airtable.com/embed/shr3I2dkF3vG4ItUy?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe></iframe>
     {{ end }}
+</div>
+
+
+<div class="content">
+  {{ if .Params.rescue }}
+  <iframe class="airtable-embed" src="https://airtable.com/embed/shrOoogmfbVwOWjvD?backgroundColor=teal&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>{{ end }}
 </div>
 
 {{ end }}

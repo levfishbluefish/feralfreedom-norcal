@@ -1,6 +1,6 @@
 ---
 title: 'Adopt'
-iframe: adopt
+adopt: adopt
 menu:
   main:
     name: "Adopt"
